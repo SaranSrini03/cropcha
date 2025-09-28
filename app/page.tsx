@@ -19,7 +19,7 @@ export default function Home() {
         });
 
         console.log("Connected account:", accounts[0]);
-        router.push("/dashboard");
+        router.push("/roles");
       } catch (error) {
         console.error("User rejected or error occurred:", error);
         setError("Failed to connect to MetaMask. Please try again.");

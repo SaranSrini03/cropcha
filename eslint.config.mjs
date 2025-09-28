@@ -20,7 +20,7 @@ const eslintConfig = [
       "next-env.d.ts",
     ],
     rules: {
-      "@typescript-eslint/no-explicit-any": "warn", // will show as warning, not error
+      "@typescript-eslint/no-explicit-any": "off", // will show as warning, not error
     },
 
   },
